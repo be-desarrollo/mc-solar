@@ -1,6 +1,51 @@
 
 # Created by https://www.gitignore.io/api/osx,node,windows,sublimetext
 
+
+
+
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+# General
+/.idea
+/.vagrant
+.DS_Store
+.env.*.php
+.env.php
+.env
+.htaccess
+Homestead.json
+Homestead.yaml
+npm-debug.log
+
+#node
+/node_modules
+/vendor
+
+
+#laravel
+/public/hot
+/public/storage
+/storage/*.key
+bootstrap/cache
+
+#extras
+composer.lock
+package-lock.json
+public/img/uploaded/
+
+
 ### Node ###
 # Logs
 logs
