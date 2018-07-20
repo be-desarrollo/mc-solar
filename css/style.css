@@ -8,15 +8,7 @@ body {
     text-align: center;
 }
 
-img { max-width: 100%;
-}
-
 /***** ESTILOS GENERALES *****/
-.section-container {
-    margin: 0 auto;
-    padding-bottom: 0px;
-}
-
 .btn-link-1 {
   width:150px;
   display: inline-block;
@@ -67,19 +59,20 @@ img { max-width: 100%;
 }
 
 /***** MENU TELEFONO *****/
-
 .navbar a{
   color: #087fc6;
+  font-size: 33px;
+
 }
 
 .navbar .navbar-brand{
   width: 230px;
-  background: url(../img/logo_cabecera_principal.png) left center no-repeat;
+  background: url(../img/Logo.svg) left center no-repeat;
   border: 0;
   text-indent: -99999px;
 }
 
-.navbar { background: #fff;}
+.navbar-dark { background: #fff;}
 .navbar.navbar-no-bg { background: #fff;  }
 
 
@@ -90,25 +83,23 @@ img { max-width: 100%;
 .navbar-dark .navbar-nav { font-size: 15px; color: #087FC6; font-weight: 00; }
 .navbar-dark .navbar-nav .nav-link:hover { color: #00AEEF; }
 .navbar-dark .navbar-nav .nav-link:focus { color: #EDA211; outline: 0; }
-.navbar-expand-md .navbar-nav .nav-link { font-size: 18px; padding-left: 1.5rem; padding-right: 1.5rem; }
+.navbar-expand-md .navbar-nav .nav-link { font-size: 20px; padding-left: 1.5rem; padding-right: 1.5rem; }
 
 .navbar-brand {
-	width: 180px;
-	background: url(../img/logo_cabecera_principal.png) left center no-repeat;
+
+	width: 300px;
+  height: 60px;
+  background: url(../img/Logo.svg) left center no-repeat;
 	border: 0;
 	text-indent: -99999px;
 
 }
-
 
 /***** INICIO *****/
 
 .inicio-container {
     padding: 100px 0;
     background-color: #EBF5FC;
-    background: url(../img/Fondo_inicio_principal.png) no-repeat center fixed;
-    min-height: 100%;
-    min-width: 100%;
 }
 
 .inicio-container h1 {
@@ -121,7 +112,6 @@ img { max-width: 100%;
 }
 
 .inicio-container h2 {
-  margin-bottom: 500px;
   font-family: 'Montserrat', sans-serif;
   font-size: 60px;
   font-weight: 100;
@@ -139,7 +129,7 @@ img { max-width: 100%;
 }
 
 .inicio-container h4 {
-  margin-bottom: 30px;
+/*  margin-bottom: 30px;*/
   font-family: 'Montserrat', sans-serif;
   font-size: 60px;
   font-weight: 700;
@@ -223,23 +213,37 @@ background-color: #EBF5FC;
 }
 
 /***** FOOTER *****/
-
 footer {
 	padding: 40px 0 0 0;
 	background: #fff;
 	color: #087fc6;
+  line-height: 22px;
 }
 footer a{
-  padding-left: 1rem; padding-right: 1rem;
+    margin: 0 15px;
+}
+
+.menu-footer a{
+  color: #087fc6;
+}
+
+.menu-footer a:hover {
+  color: #00AEEF;
+}
+
+.menu-footer a:focus {
+  color: #EDA211;
+  outline: 0;
 }
 
 .redes-footer a {
-	/*margin: 0 6px;*/
+  margin: 0 5px;
   font-size: 30px;
   color: #97b5e6;
 }
+
 .redes-menu a {
-	/*margin: 0 6px;*/
+  margin: 0 5px;
   font-size: 30px;
   color: #97b5e6;
 }

@@ -1,13 +1,16 @@
-
+/*
 @media (min-width: 992px) and (max-width: 1199px) {
 
-	.services-box .services-box-icon { width: 60px; height: 60px; font-size: 32px; line-height: 60px; border-radius: 22px; }
 
-	.about-us-box-text { padding-right: 0; }
+}
+
+
+@media (max-width: 1000px){
 
 }
 
 @media (max-width: 992px) {
+
 
 
 }
@@ -18,39 +21,58 @@
 
 	.navbar-expand-md .navbar-nav .nav-link { padding-left: 0.6rem; padding-right: 0.6rem; }
 
-}
+}*/
 
 @media (max-width: 767px) {
 
-	/* INICIO*/
 
+
+ /*FONDO PRICIPALcollapse*/
+
+img
+{
+	width: 100%;
+	height: 55%;
+}
+	/* INICIO*/
 	.navbar.navbar-no-bg { background: #fff; }
 	.navbar-dark .navbar-toggler { border-color: #444; }
 	.navbar-dark .navbar-toggler:focus { background: #333; outline: 0; }
 	.navbar-expand-md .navbar-nav .nav-link { padding-top: 0.3rem; padding-bottom: 0.3rem; }
 
 	.inicio-container {
-		padding: 70px 0;
-
+		padding: 90px 0;
 	}
+
 	.inicio-container h1 {
-		font-size: 50px;
+		font-size: 33px;
 
 	}
 	.inicio-container h2 {
-		font-size: 50px;
-	  margin-bottom: 420px;
+		font-size: 33px;
+		line-height: 5px;
 	}
 
-	.inicio-container h3, .inicio-container h4 {
-		font-size: 45px;
+	.inicio-container h3{
+		font-size: 33px;
 	}
 
+	.inicio-container h4 {
+		font-size: 31px;
+		line-height: 5px;
+	}
 
 	/* COTIZADOR*/
+.cotizador-container{
+	padding: 30px 0;
+}
+.cotizador-container h1{
+	font-size: 33px;
+	line-height: 5px;
 
-.cotizador-container h1, .cotizador-container h2 {
-	font-size: 45px;
+}.cotizador-container h2 {
+	font-size: 33px;
+	line-height: 5px;
 }
 
 .cotizador-container .sp10x {
@@ -61,21 +83,58 @@ margin-bottom:1.9642857142857142em
 margin-bottom:3.9285714285714284em
 }
 
-/* COTIZADOR*/
+/* PANELES*/
 
-.paneles-container h1, .paneles-container h2, .paneles-container h4  {
-font-size: 45px;
+.paneles-container .sp10x {
+	padding: 0px 0;
+}
+
+.paneles-container h1{
+	font-size: 33px;
+	line-height: 10px;
+}
+.paneles-container h2{
+	font-size: 33px;
+	line-height: 30px;
+
+}
+.paneles-container h4  {
+	font-size: 33px;
+
 }
 
 /* CONTACTO*/
 
-.contacto-container h1 {
-font-size: 45px;
+.contacto-container .sp5x {
+	padding: 20px 0;
+	margin-bottom:0;
+}
+.contacto-container .sp10x {
+	padding: 0px 0;
+	margin-bottom:0em;
 }
 
+.contacto-container .sp6x {
+		margin-bottom:0em;
+}
+.contacto-container .sp1x {
 
-	footer { text-align: center; }
-	.footer-right { padding-top: 10px; text-align: center; }
-	.footer-bottom { padding-top: 20px; }
+		margin-bottom:0em;
+}
 
+.contacto-container .sp30x {
+	padding: 0px 0;
+	margin-bottom:0em;
+}
+
+.contacto-container h1 {
+font-size: 33px;
+}
+
+	footer {
+		text-align: center;
+	}
+	.menu-footer {
+		margin-bottom:1em;
+	}
 }
