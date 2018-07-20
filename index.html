@@ -12,29 +12,61 @@
   </head>
   <body>
 
+
+
+      <!-- MENU TELEFONO-->
+    <nav class="navbar fixed-top navbar-expand-md navbar-no-bg">
+        <a class="navbar-brand" href="#">MC SOLAR</a>
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa fa-bars fa-1x"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link scroll-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll-link" href="#Cotizador">Cotizador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll-link" href="#Beneficios">Beneficios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll-link" href="#Contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+      <!-- FIN BARRA MENU -->
+
+
+
+
+
       <!-- BARRA MENU -->
       <nav class="navbar-dark fixed-top navbar-expand-md navbar-no-bg">
         <div class="container">
             <div class="collapse navbar-collapse" id="navbarNav">
-                <a class="navbar-brand" href="#∫">MC SOLAR</a>
+                <a class="navbar-brand" href="#">MC SOLAR</a>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link scroll-link" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#">Cotizador</a>
+                        <a class="nav-link scroll-link" href="#Cotizador">Cotizador</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#">Beneficios</a>
+                        <a class="nav-link scroll-link" href="#Beneficios">Beneficios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#">Contacto</a>
+                        <a class="nav-link scroll-link" href="#Contacto">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-primary btn-link-1" href="#">Cotizar</a>
+                        <a class="btn btn-link-1" href="#">Cotizar</a>
                     </li>
                 </ul>
-                <div class="footer-right">
+                <div class="redes-menu">
                   <a href="#"><i class="fa fa-facebook-f"></i></a>
                   <a href="#"><i class="fa fa-instagram"></i></a>
                 </div>
@@ -55,7 +87,7 @@
                       <h4>con energía renovable</h4>
                       <div class="top-big-link">
                          <div class="sp5x"></div>
-                         <a class="btn btn-primary btn-link-1" href="#services">cotizar</a>
+                         <a class="btn btn-link-2" href="#services">cotizar</a>
                       </div>
                   </div>
               </div>
@@ -64,7 +96,8 @@
       <!-- FIN INICIO -->
 
       <!-- COTIZADOR -->
-      <div class="cotizador-container section-container">
+      <div id="Cotizador"></div>
+      <div class="cotizador-container">
           <div class="container">
               <div class="row">
                    <div class="container">
@@ -72,7 +105,7 @@
                          <div class="col align-self-center">
                             <div class="sp10x"></div>
                             <h1>Cotizador</h1>
-                            <h2>de ahorro de inversion</h2>
+                            <h2><b>de ahorro de inversion</b></h2>
                             <div class="sp20x"></div>
                          </div>
                       </div>
@@ -94,7 +127,7 @@
                          </div>
                       </div>
                       <div class="row">
-                          <div class="col align-self-center">
+                          <div class="col align-self-center text-white">
                              <label for="lista1">Selecciona el tipo de pánel solar que deseas cotizar</label> <br/>
                              <select id="lista1" name="lista1">
                                   <option value="" selected="selected">- Número de personas -</option>
@@ -116,7 +149,7 @@
                       <div class="row">
                          <div class="col align-self-center">
                             <div class="top-big-link">
-                                <a class="btn btn-primary btn-link-1" href="#services">cotizar</a>
+                                <a class="btn btn-link-2" href="#services">Cotizar</a>
                                 <div class="sp20x"></div>
                             </div>
                          </div>
@@ -128,7 +161,8 @@
       <!-- FIN COTIZADOR -->
 
       <!-- PANELES -->
-      <div class="paneles-container section-container section-container-gray-bg">
+      <div id="Beneficios"></div>
+      <div class="paneles-container">
         <div class="container">
             <div class="row">
               <div class="container">
@@ -161,7 +195,7 @@
                       <div class="col align-self-center">
                           <div class="top-big-link">
                               <div class="sp10x"></div>
-                              <h1>Clientes</h1>
+                              <h4>Clientes</h4>
                               <div class="sp20x"></div>
                           </div>
                       </div>
@@ -173,9 +207,11 @@
       <!-- FIN PANELES -->
 
       <!-- FORMULARIO -->
-      <div class ="contacto-container section-container">
+      <div id="Contacto"></div>
+      <div class ="contacto-container">
         <div class="container">
           <div class="row">
+            <div class="sp5x"></div>
             <div class="sp10x"></div>
             <div class="col-xs-24 col-sm-12 col-md-12 col-lg-12 text-center">
                 <h1>Contacto</h1>
@@ -188,6 +224,7 @@
                     <input type="text" id="cf_phone" name="cf_phone" autocomplete="off" placeholder="Teléfono">
                     <textarea type="text" id="cf_comment" name="cf_comment" autocomplete="off" class="required" placeholder="Mensaje"></textarea>
                     <div class="sp4x"></div>
+                        <div class="sp2x"></div>
                     <div class="module">
                        <input type="submit" id="submit" value="Enviar" class=" text-mobil">
                         <div class="sp10x"></div>
@@ -204,17 +241,25 @@
 
       <!-- FOOTER -->
       <footer>
-         <div class="container">
-            <div class="row">
-                  <div class="col-md-5 footer-left">
-                      <p>&copy; <b>MC Solares Ecotecnologias</b><br>Simon Pedro LaPlace #5514<br>C.P. 45070 Col. Arboledas<br>Zapopan, Jalisco.</p>
-                  </div>
-                  <div class="col-md-6 offset-md-1 footer-right">
-                      <a href="#"><i class="fa fa-facebook-f"></i></a>
-                      <a href="#"><i class="fa fa-instagram"></i></a>
-                  </div>
-            </div>
+        <div class="container">
+        <div class="row">
+           <div class="col-md-4">
+               <p>&copy; <b>MC Solares Ecotecnologias</b><br>
+               Simon Pedro LaPlace #5514<br>C.P. 45070 Col.
+               Arboledas<br>Zapopan, Jalisco.
+               </p>
+           </div>
+           <div class="col-md-5 text-center">
+                <a class="#" href="#">Inicio</a>
+                <a class="#" href="#">Beneficios</a>
+                <a class="#" href="#">Contacto</a>
+           </div>
+           <div class="redes-footer col-md-3 text-center">
+              <a href="#"><i class="fa fa-facebook-f"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+           </div>
          </div>
+        </div>
       </footer>
       <!-- FIN FOOTER -->
 
