@@ -86,7 +86,6 @@ body {
 .navbar-expand-md .navbar-nav .nav-link { font-size: 20px; padding-left: 1.5rem; padding-right: 1.5rem; }
 
 .navbar-brand {
-
 	width: 300px;
   height: 60px;
   background: url(../img/Logo.svg) left center no-repeat;
@@ -139,8 +138,23 @@ body {
 
 /***** COTIZADOR *****/
 
+.styled-select {
+   /*background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% ;*/
+   height: 29px;
+
+   width: 190px;
+   background-color: #fff;
+   color: #97b5e6;
+}
+
+
 .cotizador-container{
   background-color: #97DAFE;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cotizador-container img{
+  font-family: 'Open Sans', sans-serif;
 }
 
 .cotizador-container h1 {
@@ -151,6 +165,14 @@ body {
   font-weight: 700;
   color: #fff;
   line-height: 50px;
+}
+
+.cotizador-container label {
+  margin-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: #fff;
 }
 
 .cotizador-container h2 {
@@ -165,7 +187,7 @@ body {
 /***** PANELES *****/
 
 .paneles-container{
-  background-color: #087FC6;
+  background-color: #087fc6;
 }
 
 .paneles-container h1 {
@@ -200,16 +222,18 @@ body {
 
 .contacto-container{
 background-color: #EBF5FC;
+background: url(../img/formulario_fondo.png) left center no-repeat;
 }
 
 .contacto-container h1 {
+  margin-bottom:10.9285714285714284em;
   padding-top: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   font-family: 'Montserrat', sans-serif;
   font-size: 60px;
   font-weight: 700;
   color: #087fc6;
-  line-height: 50px;
+  line-height: 0px;
 }
 
 /***** FOOTER *****/

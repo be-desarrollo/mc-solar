@@ -63,9 +63,25 @@ img
 	}
 
 	/* COTIZADOR*/
+.cotizador-container img
+{
+	width: 60%;
+	height: 55%;
+}
+
 .cotizador-container{
 	padding: 30px 0;
 }
+
+.cotizador-container label {
+  margin-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: #fff;
+  line-height: 25px;
+}
+
 .cotizador-container h1{
 	font-size: 33px;
 	line-height: 5px;
@@ -84,8 +100,20 @@ margin-bottom:3.9285714285714284em
 }
 
 /* PANELES*/
+.paneles-container img
+{
+	width: 60%;
+	height: 55%;
+}
+.paneles-container{
+	padding: 30px 0;
+}
 
-.paneles-container .sp10x {
+.paneles-container .espacio .essp10x {
+	padding: 0px 0;
+}
+
+.paneles-container .sp5x {
 	padding: 0px 0;
 }
 
@@ -106,7 +134,8 @@ margin-bottom:3.9285714285714284em
 /* CONTACTO*/
 
 .contacto-container .sp5x {
-	padding: 20px 0;
+
+	padding: 40px 0;
 	margin-bottom:0;
 }
 .contacto-container .sp10x {
@@ -129,6 +158,7 @@ margin-bottom:3.9285714285714284em
 
 .contacto-container h1 {
 font-size: 33px;
+margin-bottom: 30px;
 }
 
 	footer {
