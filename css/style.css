@@ -103,7 +103,7 @@ body {
 
 .inicio-container h1 {
   margin-top: 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 70px;
   font-weight: 700;
   color: #087fc6;
@@ -111,7 +111,7 @@ body {
 }
 
 .inicio-container h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 60px;
   font-weight: 100;
   color: #97b5e6;
@@ -120,7 +120,7 @@ body {
 
 .inicio-container h3 {
   margin-top: 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   font-weight: 100;
   color: #087fc6;
@@ -129,7 +129,7 @@ body {
 
 .inicio-container h4 {
 /*  margin-bottom: 30px;*/
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 60px;
   font-weight: 700;
   color: #97b5e6;
@@ -138,15 +138,23 @@ body {
 
 /***** COTIZADOR *****/
 
-.styled-select {
-   /*background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% ;*/
-   height: 29px;
 
-   width: 190px;
-   background-color: #fff;
-   color: #97b5e6;
+.cotizador-container .select1
+{
+  background-color: #fff;
+  height: 29px;
+  width: 145px;
+  color: #087fc6;
+  border: none;
 }
-
+.cotizador-container .select2
+{
+  background-color: #fff;
+  height: 29px;
+  width: 195px;
+  color: #087fc6;
+  border: none;
+}
 
 .cotizador-container{
   background-color: #97DAFE;
@@ -156,6 +164,7 @@ body {
 .cotizador-container img{
   font-family: 'Open Sans', sans-serif;
 }
+
 
 .cotizador-container h1 {
   padding-top: 40px;
@@ -169,7 +178,7 @@ body {
 
 .cotizador-container label {
   margin-top: 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 100;
   color: #fff;
@@ -177,7 +186,7 @@ body {
 
 .cotizador-container h2 {
   margin-top: 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   font-weight: 100;
   color: #087fc6;
@@ -212,7 +221,7 @@ body {
 .paneles-container h4 {
   padding-top: 40px;
   margin-bottom: 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 60px;
   font-weight: 700;
   color: #97b5e6;
@@ -223,13 +232,14 @@ body {
 .contacto-container{
 background-color: #EBF5FC;
 background: url(../img/formulario_fondo.png) left center no-repeat;
+background-size: cover;
 }
 
 .contacto-container h1 {
   margin-bottom:10.9285714285714284em;
   padding-top: 40px;
   margin-bottom: 60px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 60px;
   font-weight: 700;
   color: #087fc6;
@@ -282,16 +292,20 @@ footer a{
   form input:hover[type="submit"]{background:#fff; color:#EDA211; }
 
 /* STYLES */
-.sp1x,.sp2x,.sp3x,.sp4x,.sp5x,.sp6x,.sp7x,.sp8x,.sp9x,.sp10x,.sp20x,.sp30x,.sp40x,.sp50x,.sp60x{content:" ";display:inline-block;width:100%;font-size:1em;line-height:0;height:0;border:none;border:0;background-color:none}
+.sp05x,.sp1x,.sp2x,.sp3x,.sp4x,.sp5x,.sp6x,.sp7x,.sp8x,.sp9x,.sp10x,.sp20x,.sp30x,.sp40x,.sp50x,.sp60x{content:" ";display:inline-block;width:100%;font-size:1em;line-height:0;height:0;border:none;border:0;background-color:none}
+.sp05x{margin-bottom:0px}
 .sp2x{margin-bottom:.7857142857142857em}
 .sp3x{margin-bottom:1.1785714285714286em}
 .sp4x{margin-bottom:1.5714285714285714em}
 .sp5x{margin-bottom:1.9642857142857142em}
+.ssp5x{margin-bottom:1.9642857142857142em}
 .sp6x{margin-bottom:2.357142857142857em}
 .sp7x{margin-bottom:2.75em}
 .sp8x{margin-bottom:3.142857142857143em}
 .sp9x{margin-bottom:3.5357142857142856em}
 .sp10x{margin-bottom:3.9285714285714284em}
+.esp10x{margin-bottom:3.9285714285714284em}
+.essp10x{margin-bottom:3.9285714285714284em}
 .sp20x{margin-bottom:7.857142857142857em}
 .sp30x{margin-bottom:11.785714285714285em}
 .sp40x{margin-bottom:15.714285714285714em}

@@ -98,6 +98,10 @@ margin-bottom:1.9642857142857142em
 .cotizador-container .sp20x {
 margin-bottom:3.9285714285714284em
 }
+.cotizador-container .sp20x {
+margin-bottom:3.9285714285714284em
+}
+
 
 /* PANELES*/
 .paneles-container img
@@ -109,10 +113,16 @@ margin-bottom:3.9285714285714284em
 	padding: 30px 0;
 }
 
-.paneles-container .espacio .essp10x {
-	padding: 0px 0;
+.paneles-container .espacio .esp10x {
+margin-bottom:2.357142857142857em;
 }
 
+.paneles-container .espacio .essp10x {
+	margin-bottom:0;
+}
+.paneles-container .espacio .ssp5x {
+	margin-bottom:0;
+}
 .paneles-container .sp5x {
 	padding: 0px 0;
 }
