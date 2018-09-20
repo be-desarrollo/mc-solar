@@ -7,10 +7,10 @@
 	.st1{fill:#CDDCF5;}
 	.st2{fill:#4B7BBD;}
 	.st3{fill:#F7DDE2;}
-	.st4{font-family:'OpenSans-Bold';}
+	.st4{font-family: 'Open Sans', sans-serif;}
 	.st5{font-size:17.4231px;}
 	.st6{fill:#EDC312;}
-	.st7{font-family:'OpenSans-Extrabold';}
+	.st7{font-family: 'Open Sans', sans-serif;}
 	.st8{font-size:40.7715px;}
 </style>
 <circle class="st0" cx="101.3" cy="101" r="100.8"/>

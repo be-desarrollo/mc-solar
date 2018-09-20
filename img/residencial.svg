@@ -11,7 +11,7 @@
 	.st5{fill:#8EB4EA;}
 	.st6{fill:#659EE3;}
 	.st7{fill:#92B4E0;}
-	.st8{font-family:'OpenSans-Semibold';}
+	.st8{font-family: 'Open Sans', sans-serif;}  
 	.st9{font-size:25.4844px;}
 </style>
 <circle class="st0" cx="97.8" cy="117.3" r="98"/>
