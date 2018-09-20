@@ -15,15 +15,15 @@ $destinatario = "contacto@mcsolar.mx";
 $asunto = "Contacto desde nuestra web";
 
 $carta = "De: $nombre \n";
-$carta.= "Télefono: $telefono \n";
-$carta = "Asunto: $asuntocliente  \n"
-$carta.= "E-mail: $email \n";
-$carta.= "Mensaje: $mensaje";
+$carta .= "Telefono: $telefono \n";
+$carta .= "Asunto: $asuntocliente  \n";
+$carta .= "E-mail: $email \n";
+$carta .= "Mensaje: $mensaje";
 
 // ----------- ENVIO DE MENSAJE -----------
 
 mail($destinatario, $asunto, $carta);
-//header('Location:mensajeEnvio.html'); // NUEVA HOJA DE MENSAJE ENVIADO
+header('Location:mensajeEnvio.html'); // NUEVA HOJA DE MENSAJE ENVIADO
 
 
  ?>
